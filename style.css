@@ -137,21 +137,6 @@ img {
   font-family: Tahoma, Arial, sans-serif;
 }
 
-.popup .close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  transition: all 200ms;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #333;
-}
-
-.popup .close:hover {
-  color: #06D85F;
-}
-
 .popup .content {
   max-height: 30%;
   overflow: auto;
@@ -181,4 +166,34 @@ form {
   outline: none !important;
   border-color: #3B69FA;
   box-shadow: 0 0 10px #3B69FA;
+}
+
+.popup .close {
+  position: absolute;
+  top: 4px;
+  right: -1px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color:  rgb(152, 3, 3);
+  justify-content: center;
+  text-align: center;
+  margin:auto;
+  border: solid 5px #363661;
+}
+
+.close:hover {
+  color: #06D85F;
+  background-color:  rgb(85, 2, 2);
+}
+
+.equis{
+  position: absolute;
+ margin-top: 8px;
+ margin-left: -8px;
 }
